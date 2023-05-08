@@ -1,0 +1,175 @@
+* {
+  font-family: 'Barlow', sans-serif;
+  color: #141924;
+  background-color: #fffdf7;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+    'FILL' 1,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
+
+a {
+  color: #373c45;
+}
+
+.container {
+  max-width: 920px;
+  margin: 0 auto;
+  font-size: 14px;
+}
+
+.icon {
+  font-size: 0.65rem;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+header h1 {
+  font-weight: 500;
+  letter-spacing: 0.5rem;
+  margin-bottom: 8px;
+}
+
+header .info {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+header .info>div {
+  font-size: 0.7rem;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+article {
+  display: flex;
+  gap: 32px;
+}
+
+article .info {
+  min-width: 25%;
+  text-align: center;
+}
+
+.info-item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  gap: 4px;
+}
+
+.info-item .icon {
+  font-size: 0.4rem;
+}
+
+.info-item h4 {
+  margin: 0 0 8px 0;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+.info-item>div {
+  font-weight: 400;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 4px;
+  gap: 4px;
+}
+
+.skill:last-child {
+  margin: 0;
+}
+
+.skill .value {
+  position: relative;
+  height: 4px;
+  width: 100px;
+  background-color: rgb(170, 170, 170);
+}
+
+.skill .value>div {
+  position: absolute;
+  height: 100%;
+  background-color: #141924;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.w-90 {
+  width: 90%;
+}
+
+.w-80 {
+  width: 80%;
+}
+
+.w-70 {
+  width: 70%;
+}
+
+.w-60 {
+  width: 60%;
+}
+
+.main-content {
+  font-family: 'Roboto Mono', monospace;
+
+}
+
+.main-content h4 {
+  margin: 0 0 8px 0;
+  font-weight: 500;
+}
+
+.main-content .icon {
+  font-size: 0.85rem;
+}
+
+.main-content p {
+  margin: 0;
+}
+
+.summary {
+  padding-bottom: 24px;
+}
+
+.summary p {
+  padding-left: 18px;
+}
+
+.work-experience {
+  padding-left: 18px;
+  margin-bottom: 16px;
+}
+
+.work-experience h5 {
+  margin: 0;
+}
+
+.work-experience .dates {
+  font-size: 0.83em;
+  color: #ababab;
+}
+
+.work-experience ul {
+  margin: 4px 0;
+  padding-inline-start: 24px;
+}
