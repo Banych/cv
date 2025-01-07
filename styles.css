@@ -176,3 +176,9 @@ article .info {
   margin: 4px 0;
   padding-inline-start: 24px;
 }
+
+@media print {
+  @page {
+    margin: 0;
+  }
+}
